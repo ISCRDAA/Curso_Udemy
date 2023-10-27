@@ -4,25 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proyecto final</title>
+    <style>
+
+        *{
+            font-family: sans-serif;
+        }
+        h2,h1,h3,h4,h5,h6{
+            margin: 0;
+            color: aqua;
+        }
+    </style>
 </head>
-<body>
-    <div>
+<body style="margin: 0; padding: 0;">
+    <div style="max-width: 1000px; margin: 0 auto;padding:20px 0;">
         <img src="https://turbologo.com/articles/wp-content/uploads/2019/11/xbox-one-logo.png" alt="logo principal" width="20%" height="70%">
     </div>
-    <header style="background: url(https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); height: 400px; width: 900px;">
-        <div class="info-header">
-            <h2>xbox</h2>
+    <header style="background: url(/images/fondo2.jpg); height:100%; display: flex; justify-content: center; align-items: center;">
+        <div class="info-header" style="max-width: 700px; text-align: center;">
+            <h2 style="font-size: 115px;">xbox</h2>
             <hr>
-            <span>
+            <span style="color: azure;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </span>
             <button>Llamame</button>
         </div>
+    </header>
+
         <section id="simple">
             
+                <h3>La marca del gaming</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime, magni sed recusandae voluptatibus asperiores tenetur accusamus.
+                </p>
+        
         </section>
-       
-    </header>
-    
+   
+        <section id="servicio">
+            <div class="caja-servicio">
+                <img src="/images/location.png" alt="celular">
+                <h5>
+                    Localizacion
+                </h5>
+                <span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                </span>
+            </div>
+
+            <div class="caja-servicio">
+                <img src="/images/texto.png" alt="celular">
+                <h5>
+                    Servicios de mensajeria
+                </h5>
+                <span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                </span>
+            </div>
+            <div class="caja-servicio">
+                <img src="/images/celular.png" alt="celular">
+                <h5>
+                    optimizado para cualqueir servicio
+                </h5>
+                <span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                </span>
+            </div>
+
+        </section>
+
+        <section id="galeria">
+            <div class="encabezado">
+                <h2>galeria de imagenes</h2>
+                <span>las mejores imagenes de la franquisia</span>
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje1.jpg" alt="">
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje2.jpg" alt="">
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje3.jpg" alt="">
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje4.jpg" alt="">
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje5.jpg" alt="">
+            </div>
+            <div class="caja-imagenes">
+                <img src="/images/paisaje6.jpg" alt="">
+            </div>
+
+        </section>
+        <section class="formulario" style="background: url(/images/paisaje6.jpg);">
+            <div class="encabezado">
+                <h2>informacion</h2>
+                <span>mandame los datos</span>
+                <form action="" id="contacto">
+                    <input type="text" placeholder="full name">
+                    <input type="text" placeholder="email address">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+                    <div>
+                        <div class="check">
+                            <input id="subs" type="checkbox">
+                            <label for="subs">suscribe</label>
+                        </div>
+                        <div class="btn">
+                            <button type="button">enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <span>Copyright 2023</span>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/AleCarlup/?locale=gl_ES" target="_blank">
+                    <img src="/images/face.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/alejandro-rodriguez-530a12a1/?originalSubdomain=mx" target="_blank">
+                    <img src="/images/instagram.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/watch?v=kCp-iWslG4o&list=PLSJxovi1IyDH-pPIe0OF0z_mW-WVdhmhx&index=94" target="_blank">
+                    <img src="/images/tik.png" alt="">
+                </a>
+                
+            </div>
+        </footer>
 </body>
 </html>
