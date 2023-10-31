@@ -13,86 +13,113 @@
             margin: 0;
             color: aqua;
         }
+        .bg-1{
+            background-color: #f6f9f9 ;
+        }
+        .contenedor{
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .caja-servicio{
+            width: 33.33%; text-align: center; padding: 0 20px;
+        }
+        .caja-servicio img{
+            margin-bottom: 20px;
+        }
+        .caja-servicio h5{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body style="margin: 0; padding: 0;">
-    <div style="max-width: 1000px; margin: 0 auto;padding:20px 0;">
-        <img src="https://turbologo.com/articles/wp-content/uploads/2019/11/xbox-one-logo.png" alt="logo principal" width="20%" height="70%">
+    <div class="bg-1">
+        <div style="max-width: 1000px; margin: 0 auto;padding:20px 0;">
+            <img src="https://turbologo.com/articles/wp-content/uploads/2019/11/xbox-one-logo.png" alt="logo principal" width="40%" height="70%">
+        </div>
     </div>
-    <header style="background: url(/images/fondo2.jpg); height:100%; display: flex; justify-content: center; align-items: center;">
+   
+    <header style="background: url(../images/fondo2.jpg); height:100%; display: flex; justify-content: center; align-items: center; background-size: cover;">
         <div class="info-header" style="max-width: 700px; text-align: center;">
             <h2 style="font-size: 115px;">xbox</h2>
-            <hr>
-            <span style="color: azure;">
+            <hr style="border-color: aqua;">
+            <p style="color: azure;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
-            <button>Llamame</button>
+            </p>
+            <button style="background-color: transparent; border: 1px solid blue; padding: 15px 30px; border-radius: 10px; color:white; font-size: 20px;">Llamame</button>
         </div>
     </header>
 
-        <section id="simple">
+        <section class="bg-1" id="simple" style="padding: 100px 0;">
             
-                <h3>La marca del gaming</h3>
+                <div class="contenedor" style="padding: 100px 0; text-align:center;">
+                    <h3 style="font-size: 40px;">La marca del gaming</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime, magni sed recusandae voluptatibus asperiores tenetur accusamus.
                 </p>
+                </div>
         
         </section>
    
-        <section id="servicio">
-            <div class="caja-servicio">
-                <img src="/images/location.png" alt="celular">
-                <h5>
-                    Localizacion
-                </h5>
-                <span>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
-                </span>
+        <section id="servicio" style="padding: 120px 0;">
+            <div class="contenedor" style="display: flex;">
+                <div class="caja-servicio">
+                    <img src="../images/location.png" alt="celular">
+                    <h5>
+                        Localizacion
+                    </h5>
+                    <span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                    </span>
+                </div>
+    
+                <div class="caja-servicio">
+                    <img src="../images/texto.png" alt="celular">
+                    <h5>
+                        Servicios de mensajeria
+                    </h5>
+                    <span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                    </span>
+                </div>
+                <div class="caja-servicio">
+                    <img src="../images/celular.png" alt="celular">
+                    <h5>
+                        optimizado para cualqueir servicio
+                    </h5>
+                    <span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
+                    </span>
+                </div>
+    
             </div>
-
-            <div class="caja-servicio">
-                <img src="/images/texto.png" alt="celular">
-                <h5>
-                    Servicios de mensajeria
-                </h5>
-                <span>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
-                </span>
-            </div>
-            <div class="caja-servicio">
-                <img src="/images/celular.png" alt="celular">
-                <h5>
-                    optimizado para cualqueir servicio
-                </h5>
-                <span>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora veritatis id aut? Ipsum tenetur voluptate ullam.
-                </span>
-            </div>
-
         </section>
+            
 
         <section id="galeria">
-            <div class="encabezado">
-                <h2>galeria de imagenes</h2>
-                <span>las mejores imagenes de la franquisia</span>
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje1.jpg" alt="">
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje2.jpg" alt="">
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje3.jpg" alt="">
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje4.jpg" alt="">
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje5.jpg" alt="">
-            </div>
-            <div class="caja-imagenes">
-                <img src="/images/paisaje6.jpg" alt="">
+            <div class="contenedor">
+                <div class="encabezado">
+                    <h2>galeria de imagenes</h2>
+                    <span>las mejores imagenes de la franquisia</span>
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje1.jpg" alt="">
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje2.jpg" alt="">
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje3.jpg" alt="">
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje4.jpg" alt="">
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje5.jpg" alt="">
+                </div>
+                <div class="caja-imagenes">
+                    <img src="../images/paisaje6.jpg" alt="">
+                </div>
             </div>
 
         </section>
