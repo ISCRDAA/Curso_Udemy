@@ -30,6 +30,21 @@
             font-size: 20px;
             margin-bottom: 15px;
         }
+        .pf-90{
+            padding: 90px 0;
+        }
+        .fila{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .caja-imagenes{
+            width: 33%;
+            padding: 0 10px;
+        }
+        .caja-imagenes img{
+            width: 100%;
+            display: block;
+        }
     </style>
 </head>
 <body style="margin: 0; padding: 0;">
@@ -96,21 +111,25 @@
         </section>
             
 
-        <section id="galeria">
+        <section id="galeria" class="bg-1 pd-90">
             <div class="contenedor">
-                <div class="encabezado">
-                    <h2>galeria de imagenes</h2>
+                <div class="encabezado" style="text-align: center; margin-bottom: 50px;">
+                    <h2 style="font-size: 65px;">galeria de imagenes</h2>
                     <span>las mejores imagenes de la franquisia</span>
                 </div>
-                <div class="caja-imagenes">
-                    <img src="../images/paisaje1.jpg" alt="">
+                <div class="fila">
+                    <div class="caja-imagenes">
+                        <img src="../images/paisaje1.jpg" alt="">
+                    </div>
+                    <div class="caja-imagenes">
+                        <img src="../images/paisaje2.jpg" alt="">
+                    </div>
+                    <div class="caja-imagenes">
+                        <img src="../images/paisaje3.jpg" alt="">
+                    </div>
                 </div>
-                <div class="caja-imagenes">
-                    <img src="../images/paisaje2.jpg" alt="">
-                </div>
-                <div class="caja-imagenes">
-                    <img src="../images/paisaje3.jpg" alt="">
-                </div>
+
+               <div class="fila">
                 <div class="caja-imagenes">
                     <img src="../images/paisaje4.jpg" alt="">
                 </div>
@@ -120,27 +139,32 @@
                 <div class="caja-imagenes">
                     <img src="../images/paisaje6.jpg" alt="">
                 </div>
+               </div>
+                
             </div>
 
         </section>
-        <section class="formulario" style="background: url(/images/paisaje6.jpg);">
-            <div class="encabezado">
-                <h2>informacion</h2>
-                <span>mandame los datos</span>
-                <form action="" id="contacto">
-                    <input type="text" placeholder="full name">
-                    <input type="text" placeholder="email address">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
-                    <div>
-                        <div class="check">
-                            <input id="subs" type="checkbox">
-                            <label for="subs">suscribe</label>
+        <section class="formulario" class="pd-90" style="background: url(../images/paisaje6.jpg);">
+            <div class="contenedor">
+                <div class="encabezado" style="text-align: center; margin-bottom: 30px;">
+                    <h2 style="font-size: 50px;">informacion</h2>
+                    <span>mandame los datos</span>
+                    <br>
+                    <form action="" id="contacto">
+                        <input type="text" placeholder="full name">
+                        <input type="text" placeholder="email address">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+                        <div>
+                            <div class="check">
+                                <input id="subs" type="checkbox">
+                                <label for="subs">suscribe</label>
+                            </div>
+                            <div class="btn">
+                                <button type="button">enviar</button>
+                            </div>
                         </div>
-                        <div class="btn">
-                            <button type="button">enviar</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </section>
         <footer>
